@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário FECEAC</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+<body>
+    <div class="container">
+        <div class="header"></div>
+
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            
+            <div class="form-body">
+                <h1 class="form-title">Participe da FECEAC da E. E. Prof. Abel Freire Coelho!</h1>
+                <p>Preencha com os dados solicitados.</p>
+            </div>
+
+            <form>
+                <div class="box-input">
+                    <label for="title">Título do projeto: <span class="required-field">*</span></label>
+
+                    <input type="text" name="title" id="title" class="block" placeholder=" O título do seu projeto" minlength="1" maxlength="100" required>
+                </div>
+
+                <div class="box-input">
+                    <p>Área do projeto: <span class="required-field">*</span></p>
+                    
+                    <div>
+                        <input type="radio" id="agrarias" name="gerar">
+                        <label for="agrarias">Ciências agrárias</label>
+                    </div>
+                    
+                    <div class="block">
+                        <input type="radio" id="biologicas" name="gerar">
+                        <label for="biologicas">Ciências biológicas</label>
+                    </div>
+                    
+                    <div class="block">
+                        <input type="radio" id="exatas" name="gerar">
+                        <label for="exatas">Ciências exatas e da terra</label>
+                    </div>
+
+                    <div class="block">
+                        <input type="radio" id="humanas" name="gerar">
+                        <label for="humanas">Ciências humanas</label>
+                    </div>
+
+                    <div class="block">
+                        <input type="radio" id="saude" name="gerar">
+                        <label for="saude">Ciências da saúde</label>
+                    </div>
+                </div>
+
+                <div class="box-input">
+                    <label for="description">Descrição do projeto: <span class="required-field">*</span></label>
+
+                    <textarea name="description" id="description" class="block" placeholder="Descreva o seu projeto" required></textarea>
+                </div>
+                
+                <div class="box-input">
+                    <label for="orientador">Orientador do projeto: <span class="required-field">*</span></label>
+
+                    <input type="text" name="orientador" id="orientador" class="block" placeholder=" O orientador do seu projeto" minlength="1" maxlength="100" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="coorientador">Co-orientador do projeto: <span class="required-field">*</span></label>
+
+                    <input type="text" name="coorientador" id="coorientador" class="block" placeholder=" O co-orientador do seu projeto" minlength="1" maxlength="100" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="aluno1">Aluno 1: <span class="required-field">*</span></label>
+
+                    <input type="text" name="aluno1" id="aluno1" class="block" placeholder=" Digite o nome do 1° aluno" minlength="1" maxlength="500" required>
+                </div>
+
+                <div class="box-input">
+                    <label for="aluno1">Aluno 2 (opcional):</label>
+
+                    <input type="text" name="aluno2" id="aluno2" class="block" placeholder=" Digite o nome do 2° aluno" minlength="1" maxlength="500">
+                </div>
+
+                <div class="box-input">
+                    <label for="aluno1">Aluno 3 (opcional):</label>
+
+                    <input type="text" name="aluno3" id="aluno3" class="block" placeholder=" Digite o nome do 3° aluno" minlength="1" maxlength="500">
+                </div>
+
+                <div class="box-input">
+                    <label for="turma">Turma: <span class="required-field">*</span></label>
+
+                    <select name="turma" id="turma" required>
+                        <option value="selecione">selecione</option>
+                        <option value="1-A">1° A</option>
+                        <option value="1-B">1° B</option>
+                        <option value="1-C">1° C</option>
+                        <option value="1-INFO">1° INFO</option>
+                        <option value="2-A">2° A</option>
+                        <option value="2-B">2° B</option>
+                        <option value="2-C">2° C</option>
+                        <option value="2-INFO">2° INFO</option>
+                        <option value="3-A">3° A</option>
+                        <option value="3-B">3° B</option>
+                        <option value="3-C">3° C</option>
+                        <option value="3-INFO">3° INFO</option>
+                    </select>
+                </div>
+
+                <input type="submit" value="Enviar" class="btn-submit">
+            </form>
+        </div>
+    </div>
+
+    <div class="gstv">
+        <p>Desenvolvido por @gstvmatheus!</p>
+    </div>
+</body>
+</html> 
